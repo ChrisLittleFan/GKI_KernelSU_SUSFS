@@ -42,7 +42,7 @@ on:
         default: true
       set_defbbr:
         description: '是否将BBR设为默认拥塞算法?（实验性）'
-        required: true
+        required: false
         type: boolean
         default: false
       get_manager:
